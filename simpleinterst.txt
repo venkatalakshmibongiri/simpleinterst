@@ -1,0 +1,27 @@
+import java.util.*;
+class Pqr
+{
+public static void main(String args[])
+{
+Scanner sc=new Scanner(System.in);
+System.out.println("Enter Principal ");
+float p=sc.nextFloat();
+System.out.println("Enter Time in years ");
+float q=sc.nextFloat();
+System.out.println("Enter Rate of interest ");
+float r=sc.nextFloat();
+simpleinterst(p,q,r);
+}
+static void simpleinterst(float p,float q,float r)
+{
+float i;
+i=(p*q*r)/100;
+System.out.println("Simple intrsest is "+i);
+}
+}
+
+Output____________________________________________________________________-
+Enter Principal 2000
+Enter Time in years 1.75
+Enter Rate of interest 2.25
+Simple intrsest is 78.75
